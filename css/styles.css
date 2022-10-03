@@ -13,9 +13,12 @@
 }
 html {
     font-family: 'Kanit', sans-serif;
+    overflow-x: hidden;
+    width: 100%!important;
 }
 body {
-    width: 100%;
+    overflow-x: hidden;
+    width: 100%!important;
     height: 60em;
     background-color: #DCECF2;
     background-image: url("../assets/img/fondos/8.jpg");
@@ -442,6 +445,7 @@ p{
             "gridMain"
             "footer";
             overflow-x: hidden;
+            width: 100%!important;
     }
     .mapa {
         visibility:hidden;
@@ -513,6 +517,7 @@ p{
     }
     .novedades {
         grid-area: novedades;
+        width: 360px;
     }
     section {
         grid-area: section;
@@ -534,6 +539,7 @@ p{
             "flexFooter1";
             height: 100vh;
             overflow-x: hidden;
+            width: 100%!important;
     }
     .header1 {
         grid-area: header1;
@@ -574,6 +580,7 @@ p{
             "detallesServicios servicios"
             "footer footer";
             overflow-x: hidden;
+            width: 100%!important;
     } 
     .header3 {
         grid-area: header3;
@@ -649,6 +656,7 @@ p{
             "carouselZonas"
             "footerZonas";
             overflow-x: hidden;
+            width: 100%!important;
     }
     .listaZonas {
         padding-left: 10em;
@@ -707,7 +715,7 @@ p{
         overflow-x: hidden;
     }
     .bodyBlog img {
-        width: 40em;
+        width: 360px;
     }
     .footerBlog{
         height: 10em;
@@ -724,14 +732,14 @@ p{
         margin: 0%;
     }
     .mainBlog {
-        height: 72em;
+        height: 75em;
         padding-top: 20em;
     }
     .asideBlog {
-        height: 45em;
+        height: 53em;
     }
     .sectionBlog {
-        height: 50em;
+        height: 58em;
     }
     .tituloBLog{
         padding-top: 25em;
